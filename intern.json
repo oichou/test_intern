@@ -1,4 +1,9 @@
 {
-  "suites": "tests/**/*.js",
-  "environments": ["firefox"]
+  "suites": "tests/build/**/*.js",
+  "environments": ["firefox"],
+  "browser": {
+    "loader": {
+      "script": "esm"
+    }
+  }
 }

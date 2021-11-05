@@ -1,12 +1,11 @@
 {
   /* https://aka.ms/tsconfig.json */
   "compilerOptions": {
-    "types": ["intern"],
     "noImplicitAny": true,
     "declaration": true,
     "removeComments": false,
     "outDir": "build",
-    "rootDir": "src",
+    "rootDir": ".",
     "target": "es6",
     "module": "esnext",
     "moduleResolution": "nodenext",
