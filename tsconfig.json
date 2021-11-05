@@ -1,0 +1,24 @@
+{
+  /* https://aka.ms/tsconfig.json */
+  "compilerOptions": {
+    "types": ["intern"],
+    "noImplicitAny": true,
+    "declaration": true,
+    "removeComments": false,
+    "outDir": "build",
+    "rootDir": ".",
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "lib": [
+      "es6",
+      "dom",
+      "esnext",
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+  }
+}
